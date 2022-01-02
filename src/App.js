@@ -1,11 +1,11 @@
 import "./App.css";
 import Kang from "./Kang";
-import Say from "./Say";
-
+import EventPractice from "./EventPractice";
 function App() {
+  const hello = "안녕";
   return (
     <>
-      <Say />
+      <EventPractice />
     </>
   );
 }
